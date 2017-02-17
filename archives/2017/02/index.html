@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Samboo.top</title>
+  <title>Archives: 2017/2 | Samboo.top</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="不忘初心，方得始终.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Samboo.top">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/archives/2017/02/index.html">
 <meta property="og:site_name" content="Samboo.top">
 <meta property="og:description" content="不忘初心，方得始终.">
 <meta name="twitter:card" content="summary">
@@ -27,9 +27,6 @@
   <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   
-    
-    
-  
   
       <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
   
@@ -41,9 +38,9 @@
           rootUrl: '/',
           fancybox: true,
           animate: true,
-          isHome: true,
+          isHome: false,
           isPost: false,
-          isArchive: false,
+          isArchive: true,
           isTag: false,
           isCategory: false,
           open_in_new: false
@@ -244,161 +241,48 @@
 </nav>
       <div class="body-wrap">
   
-    <article id="post-About-Swift" class="article article-type-post" itemscope itemprop="blogPost">
   
-    <div class="article-meta">
-      <a href="/2017/02/17/About-Swift/" class="article-date">
-      <time datetime="2017-02-17T09:51:48.000Z" itemprop="datePublished">2017-02-17</time>
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2017" class="archive-year">2017</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+          <div class="article-meta">
+              <a href="/2017/02/17/About-Swift/" class="archive-article-date">
+      <time datetime="2017-02-17T09:51:48.000Z" itemprop="datePublished">02-17</time>
 </a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
+        </div>
+         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/17/About-Swift/">About Swift</a>
+      <a class="archive-article-title" href="/2017/02/17/About-Swift/">About Swift</a>
     </h1>
   
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="article-info info-on-archive">
           
-        <p>Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.</p>
-<p>The goal of the Swift project is to create the best available language for uses ranging from systems programming, to mobile and desktop apps, scaling up to cloud services. Most importantly, Swift is designed to make writing and maintaining correct programs easier for the developer. To achieve this goal, we believe that the most obvious way to write Swift code must also be:</p>
-<p>Safe. The most obvious way to write code should also behave in a safe manner. Undefined behavior is the enemy of safety, and developer mistakes should be caught before software is in production. Opting for safety sometimes means Swift will feel strict, but we believe that clarity saves time in the long run.</p>
-<p>Fast. Swift is intended as a replacement for C-based languages (C, C++, and Objective-C). As such, Swift must be comparable to those languages in performance for most tasks. Performance must also be predictable and consistent, not just fast in short bursts that require clean-up later. There are lots of languages with novel features — being fast is rare.</p>
-<p>Expressive. Swift benefits from decades of advancement in computer science to offer syntax that is a joy to use, with modern features developers expect. But Swift is never done. We will monitor language advancements and embrace what works, continually evolving to make Swift even better.</p>
-<p>Tools are a critical part of the Swift ecosystem. We strive to integrate well within a developer’s toolset, to build quickly, to present excellent diagnostics, and to enable interactive development experiences. Tools can make programming so much more powerful, like Swift-based playgrounds do in Xcode, or a web-based REPL can when working with Linux server-side code.<br>Features</p>
-<p>Swift includes features that make code easier to read and write, while giving the developer the control needed in a true systems programming language. Swift supports inferred types to make code cleaner and less prone to mistakes, and modules eliminate headers and provide namespaces. Memory is managed automatically, and you don’t even need to type semi-colons. Swift also borrows from other languages, for instance named parameters brought forward from Objective-C are expressed in a clean syntax that makes APIs in Swift easy to read and maintain.</p>
-<p>The features of Swift are designed to work together to create a language that is powerful, yet fun to use. Some additional features of Swift include:</p>
-<pre><code>Closures unified with function pointers
-Tuples and multiple return values
-Generics
-Fast and concise iteration over a range or collection
-Structs that support methods, extensions, and protocols
-Functional programming patterns, e.g., map and filter
-Powerful error handling built-in
-Advanced control flow with do, guard, defer, and repeat keywords
-</code></pre><p>Safety</p>
-<p>Swift was designed from the outset to be safer than C-based languages, and eliminates entire classes of unsafe code. Variables are always initialized before use, arrays and integers are checked for overflow, and memory is managed automatically. Syntax is tuned to make it easy to define your intent — for example, simple three-character keywords define a variable (var) or constant (let).</p>
-<p>Another safety feature is that by default Swift objects can never be nil, and trying to make or use a nil object will results in a compile-time error. This makes writing code much cleaner and safer, and prevents a common cause of runtime crashes. However, there are cases where nil is appropriate, and for these situations Swift has an innovative feature known as optionals. An optional may contain nil, but Swift syntax forces you to safely deal with it using ? to indicate to the compiler you understand the behavior and will handle it safely.<br>Swift.org and Open Source</p>
-<p>On December 3, 2015, the Swift language, supporting libraries, debugger, and package manager were published under the Apache 2.0 license with a Runtime Library Exception, and Swift.org was created to host the project. The source code is hosted on GitHub where it is easy for anyone to get the code, build it themselves, and even create pull requests to contribute code back to the project. Everyone is welcome, even just to file a bug report. There are excellent Getting Started guides available here on the site as well.</p>
-<p>The project is governed by a core team of engineers that drive the strategic direction by working with the community, and a collection of code owners responsible for the day-to-day project management. Technical leaders come from the community of contributors and anyone can earn the right to lead an area of Swift. The Community Guidelines includes detailed information on how the Swift community is managed.<br>Projects</p>
-<p>The Swift language is managed as a collection of projects, each with its own repositories. The current list of projects includes:</p>
-<pre><code>The Swift compiler command line tool
-The standard library bundled as part of the language
-Core libraries that provide higher-level functionality
-The LLDB debugger which includes the Swift REPL
-The Swift package manager for distributing and building Swift source code
-Xcode playground support to enable playgrounds in Xcode.
-</code></pre><p>Platform Support</p>
-<p>One of the most exciting aspects of developing Swift in the open is knowing that it is now free to be ported across a wide range of platforms, devices, and use cases.</p>
-<p>Our goal is to provide source compatibility for Swift across all platforms, even though the actual implementation mechanisms may differ from one platform to the next. The primary example is that the Apple platforms include the Objective-C runtime, which is required to access Apple platform frameworks such as UIKit and AppKit. On other platforms, such as Linux, no Objective-C runtime is present, because it isn’t necessary.</p>
-<p>The Swift core libraries project aims to extend the cross-platform capabilities of Swift by providing portable implementations of fundamental Apple frameworks (such as Foundation) without dependencies on the Objective-C runtime. Although the core libraries are in an early stage of development, they will eventually provide improved source compatibility for Swift code across all platforms.<br>Apple Platforms</p>
-<p>Open-source Swift can be used on the Mac to target all of the Apple platforms: iOS, macOS, watchOS, and tvOS. Moreover, binary builds of open-source Swift integrate with the Xcode developer tools, including complete support for the Xcode build system, code completion in the editor, and integrated debugging, allowing anyone to experiment with the latest Swift developments in a familiar Cocoa and Cocoa Touch development environment.<br>Linux</p>
-<p>Open-source Swift can be used on Linux to build Swift libraries and applications. The open-source binary builds provide the Swift compiler and standard library, Swift REPL and debugger (LLDB), and the core libraries, so one can to jump right in to Swift development.<br>New Platforms</p>
-<p>We can’t wait to see the new places we can bring Swift—together. We truly believe that this language that we love can make software safer, faster, and easier to maintain. We’d love your help to bring Swift to even more computing platforms.</p>
 
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/12/03/hello-world/" class="article-date">
-      <time datetime="2016-12-03T01:14:54.000Z" itemprop="datePublished">2016-12-03</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/12/03/hello-world/">Welcome to Samboo.top</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
           
-        <p>Welcome to <a href="https://github.com/ForrestSanbao/" target="_blank" rel="external">Samboo.top !</a></p>
-<p>Thank you to visiting My Global WebSite !!!  </p>
-<p>It can running on iPhone, Android, Web Browser, MacOS, Windows, Linux, Unix, Chrome OS, Windows Phone !</p>
-<p>If you need to get more infomation, Send Email to  WusanbaoApple(#)iCloud.com   or  Connect me on <a href="https://github.com/ForrestSanbao/" target="_blank" rel="external">GitHub</a>.</p>
-<p>My Chinese-Blog WebSite: <a href="http://www.cnblogs.com/Samboo/" target="_blank" rel="external">Samboo’s cnblogs</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
+        </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
-  
 </article>
-
-
-
-
-
-
-
-
-
   
   
+    </div></section>
+  
+
+    
+
 </div>
       <footer id="footer">
     <div class="outer">
@@ -463,6 +347,17 @@ Xcode playground support to enable playgrounds in Xcode.
         };
     })
 </script>
+
+    <button class="hide-labels">TAG 开关</button>
+    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $(".article-info").toggle(200);
+            });
+        });
+    </script>
 
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
